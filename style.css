@@ -1,0 +1,17 @@
+h1 {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
